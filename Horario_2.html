@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table td ,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        table {border-collapse: collapse;}
+        td, th{
+            padding: 8px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        table th{
+            background-color: rgb(6, 252, 6);
+        }
+
+    
+    </style>
+</head>
+<body>
+    <h1>Horario de clases</h1>
+    <table>
+        <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+
+        <tr>
+            <td>08:00-09:00</td>
+            <td rowspan="2">Matematicas</td>
+            <td>Historia</td>
+            <td rowspan="2">Biologia</td>
+            <td rowspan="2">Fisica</td>
+            <td>Quimica</td>
+        </tr>
+
+        <tr>
+            <td>09:00-10:00</td>
+            <td>Inglés</td>
+            <td>Educación Fisica</td>
+        </tr>
+
+        <tr>
+            <td>10:00 - 10:30</td>
+            <td colspan="5", style="text-align: center;", ><b>Descanso</b></td>
+        </tr>
+
+        <tr>
+            <td>10:30 - 11:30</td>
+            <td>Informática</td>
+            <td rowspan="2">Matematicas</td>
+            <td>Biologia</td>
+            <td>Educacion fisica</td>
+            <td>Historia del arte</td>
+        </tr>
+
+        <tr>
+            <td>11:30 - 12:30</td>
+            <td>Quimica</td>
+            <td>Lengua y literatura</td>
+            <td>Matematicas</td>
+            <td rowspan="2">Ciencias sociales</td>
+        </tr>
+
+        <tr>
+            <td>12:30 - 1:30</td>
+            <td>Filosofia</td>
+            <td>Educacion fisica</td>
+            <td>Arte</td>
+            <td>Deportes</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
